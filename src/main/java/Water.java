@@ -18,6 +18,7 @@ public class Water {
             new Hydrogen(Phaser);
             new Oxygen(Phaser);
             Phaser.arriveAndAwaitAdvance();
+            System.out.println(" ");
         }
     }
 }
